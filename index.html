@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tome una Foto</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <a href="" id="FotoGuardar" download="Tufoto.png"></a>
+        <h1>Tome una Foto</h1>
+        <img src="Creeper.jpg" class="Algo" alt="Mi foto">
+        <br>
+        <h3>De el permiso de microfono</h3>
+        <br>
+        <h2>Diga: "FOTO!!" para tomar una foto</h2>
+        <br>
+        <h3>Salida de voz:</h3>
+        <textarea id="textareaVoz" readonly="true"></textarea>
+        <br>
+        <h3>Haga click para iniciar:</h3>
+        <br>
+        <br>
+        <button onclick="INICIAR()">Iniciar</button>
+        <br>
+        <h4>Su Camara:</h4>
+        <br>
+        <div id="DondeVaLaFoto"></div>
+        <br>
+        <h4>Su Foto:</h4>
+        <br>
+        <div id="Foto"></div>
+        <br>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
